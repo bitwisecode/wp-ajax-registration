@@ -3,7 +3,7 @@ function create_bcdcn_registration_form(){
 
 	ob_start(); ?>
 
-		<div class="bc-container">
+		<div class="bc-container bc_container_test">
 		    <div class="bc-reg-form-container">
 		        
 		        <div class="bc-content-above">
