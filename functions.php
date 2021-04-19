@@ -1,166 +1,166 @@
-
-function create_enhancedcn_registration_form(){
+<?php 
+function create_bcdcn_registration_form(){
 
 	ob_start(); ?>
 
-		<div class="enhance-container">
-		    <div class="enhance-reg-form-container">
+		<div class="bc-container">
+		    <div class="bc-reg-form-container">
 		        
-		        <div class="enhance-content-above">
+		        <div class="bc-content-above">
 		            Register with us by filling out the form below.
 		        </div>
 
-		        <form method="post" enctype="multipart/form-data" class="enhance-form ">
-		            <div class="enhance-form-html" id="">
-		                <div class="enhance-rendered-form">
+		        <form method="post" enctype="multipart/form-data" class="bc-form ">
+		            <div class="bc-form-html" id="">
+		                <div class="bc-rendered-form">
 
-		                    <div class="enhance-group">
-		                        <label for="user_login" class="enhance-text-label">Username<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="user_login" class="bc-text-label">Username<span class="bc-required">*</span></label>
 		                        <input type="text" required="1"class="form-control" name="user_login" id="user_login" />
 		                    </div>
 
-		                    <div class="enhance-group">
-		                        <label for="first_name" class="enhance-text-label">First Name</label><input type="text" class="form-control" name="first_name" id="first_name" />
+		                    <div class="bc-group">
+		                        <label for="first_name" class="bc-text-label">First Name</label><input type="text" class="form-control" name="first_name" id="first_name" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="last_name" class="enhance-text-label">Last Name</label><input type="text" class="form-control" name="last_name" id="last_name" />
+		                    <div class="bc-group">
+		                        <label for="last_name" class="bc-text-label">Last Name</label><input type="text" class="form-control" name="last_name" id="last_name" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="email" class="enhance-email-label">Email<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="email" class="bc-email-label">Email<span class="bc-required">*</span></label>
 		                        <input type="email" required="1" class="form-control" name="email" id="email" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="password" class="enhance-password-label">Password<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="password" class="bc-password-label">Password<span class="bc-required">*</span></label>
 		                        <input type="password" required="1" value="" class="form-control" name="password" id="password" />
 		                        
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="confirm_password" class="enhance-password-label">Confirm Password<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="confirm_password" class="bc-password-label">Confirm Password<span class="bc-required">*</span></label>
 		                        <input type="password" required="1" value="" class="form-control" name="confirm_password" id="confirm_password" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="practice_name_use" class="enhance-text-label">Practice Name<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="practice_name_use" class="bc-text-label">Practice Name<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="practice_name_use" required="required" id="practice_name_use" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label class="enhance-text-label">Provider Name</label><input type="text"  class="form-control" name="provider_name_" id="provider_name_" />
+		                    <div class="bc-group">
+		                        <label class="bc-text-label">Provider Name</label><input type="text"  class="form-control" name="provider_name_" id="provider_name_" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="field-CicIpC5trDPkgaN" class="enhance-tel-label">Phone Number<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="field-CicIpC5trDPkgaN" class="bc-tel-label">Phone Number<span class="bc-required">*</span></label>
 		                           
 		                        <input type="tel" class="form-control" name="phone_number_" required="required" enable-intl="1" id="phone_number_" autocomplete="off" placeholder="1812-345678" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="email_address_for_invoice_receipt__if_different_from_above__" class="enhance-email-label">Email address for invoice receipt (if different from above)</label>
+		                    <div class="bc-group">
+		                        <label for="email_address_for_invoice_receipt__if_different_from_above__" class="bc-email-label">Email address for invoice receipt (if different from above)</label>
 		                        <input type="email" data-ref-label="Email address for invoice receipt" class="form-control" name="email_address_for_invoice_receipt__if_different_from_above__" id="email_address_for_invoice_receipt__if_different_from_above__" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="office_contact__if_different_from_above__" class="enhance-text-label">Office contact (if different from above)</label>
+		                    <div class="bc-group">
+		                        <label for="office_contact__if_different_from_above__" class="bc-text-label">Office contact (if different from above)</label>
 		                        <input type="text" class="form-control" name="office_contact__if_different_from_above__" id="office_contact__if_different_from_above__" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="ecn_sales_representative" class="enhance-text-label">ECN sales representative<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="ecn_sales_representative" class="bc-text-label">ECN sales representative<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="ecn_sales_representative" required="required" id="ecn_sales_representative" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="national_pro_hook_meta_key" class="enhance-text-label">
-		                            NPI# National Provider Identifier<span class="enhance-required">*</span><span class="tooltip-element" title="Field must be 10 digits numeric value"><i style="padding-left:5px;" class="fa fa-info" aria-hidden="true"></i></span>
+		                    <div class="bc-group">
+		                        <label for="national_pro_hook_meta_key" class="bc-text-label">
+		                            NPI# National Provider Identifier<span class="bc-required">*</span><span class="tooltip-element" title="Field must be 10 digits numeric value"><i style="padding-left:5px;" class="fa fa-info" aria-hidden="true"></i></span>
 		                        </label>
 		                        <input  title="Field must be 10 digits numeric value" type="text" class="form-control" name="national_pro_hook_meta_key" pattern="[0-9]{10}" required="required" id="national_pro_hook_meta_key" />
 		                    </div>
-		                    <div class="enhance-group">
+		                    <div class="bc-group">
 		                    	<h2 data-non-input="1" data-ref-label="CUSTOMER BILLING ADDRESS" data-ref-id="header-3kzxjxla" class="add_padding_to_heading">CUSTOMER BILLING ADDRESS</h2>
 		                    </div>
 
-		                    <div class="enhance-group">
-		                        <label for="billing_first_name" class="enhance-text-label">First name<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="billing_first_name" class="bc-text-label">First name<span class="bc-required">*</span></label>
 		                        <input type="text"  class="form-control" name="billing_first_name" required="required" id="billing_first_name" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="billing_last_name" class="enhance-text-label">Last name<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="billing_last_name" class="bc-text-label">Last name<span class="bc-required">*</span></label>
 		                        <input type="text" data-ref-label="Last name" class="form-control" name="billing_last_name" required="required" id="billing_last_name" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="billing_company" class="enhance-text-label">Company<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="billing_company" class="bc-text-label">Company<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="billing_company" required="required" id="billing_company" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="billing_address_1" class="enhance-text-label">Address Line 1<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="billing_address_1" class="bc-text-label">Address Line 1<span class="bc-required">*</span></label>
 		                        <input type="text"  class="form-control" name="billing_address_1" required="required" id="billing_address_1" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="billing_address_2" class="enhance-text-label">Address Line 2</label><input type="text" class="form-control" name="billing_address_2" id="billing_address_2" />
+		                    <div class="bc-group">
+		                        <label for="billing_address_2" class="bc-text-label">Address Line 2</label><input type="text" class="form-control" name="billing_address_2" id="billing_address_2" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="billing_city" class="enhance-text-label">City<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="billing_city" class="bc-text-label">City<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="billing_city" required="required" id="billing_city" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="billing_state" class="enhance-text-label">State<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="billing_state" class="bc-text-label">State<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="billing_state" required="required" id="billing_state" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="billing_postcode" class="enhance-text-label">Zip Code<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="billing_postcode" class="bc-text-label">Zip Code<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="billing_postcode" required="required" id="billing_postcode" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="bill_to_office_number__if_different_from_above_" class="enhance-text-label">Bill to office number (if different from above)</label>
+		                    <div class="bc-group">
+		                        <label for="bill_to_office_number__if_different_from_above_" class="bc-text-label">Bill to office number (if different from above)</label>
 		                        <input type="text"  class="form-control" name="bill_to_office_number__if_different_from_above_" id="bill_to_office_number__if_different_from_above_" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="bill_to_email__if_different_from_above_" class="enhance-text-label">Bill to email (if different from above)</label>
+		                    <div class="bc-group">
+		                        <label for="bill_to_email__if_different_from_above_" class="bc-text-label">Bill to email (if different from above)</label>
 		                        <input type="email" class="form-control" name="bill_to_email__if_different_from_above_" id="bill_to_email__if_different_from_above_" />
 		                    </div>
-		                    <div class="enhance-group"><h2 class="add_padding_to_heading">CUSTOMER SHIPPING ADDRESS</h2></div>
-		                    <div class="enhance-group">
-		                        <label for="shipping_first_name" class="enhance-text-label">First name<span class="enhance-required">*</span></label>
+		                    <div class="bc-group"><h2 class="add_padding_to_heading">CUSTOMER SHIPPING ADDRESS</h2></div>
+		                    <div class="bc-group">
+		                        <label for="shipping_first_name" class="bc-text-label">First name<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="shipping_first_name" required="required" id="shipping_first_name" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="shipping_last_name" class="enhance-text-label">Last name<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="shipping_last_name" class="bc-text-label">Last name<span class="bc-required">*</span></label>
 		                        <input type="text" data-ref-label="Last name Shipping" class="form-control" name="shipping_last_name" required="required" id="shipping_last_name" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="shipping_company" class="enhance-text-label">Company<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="shipping_company" class="bc-text-label">Company<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="shipping_company" required="required" id="shipping_company" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="shipping_address_1" class="enhance-text-label">Address Line 1<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="shipping_address_1" class="bc-text-label">Address Line 1<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="shipping_address_1" required="required" id="shipping_address_1" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="shipping_address_2" class="enhance-text-label">Address Line 2</label>
+		                    <div class="bc-group">
+		                        <label for="shipping_address_2" class="bc-text-label">Address Line 2</label>
 		                        <input type="text"  class="form-control" name="shipping_address_2" id="shipping_address_2" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="shipping_city" class="enhance-text-label">City<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="shipping_city" class="bc-text-label">City<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="shipping_city" required="required" id="shipping_city" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="shipping_state" class="enhance-text-label">State<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="shipping_state" class="bc-text-label">State<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="shipping_state" required="required" id="shipping_state" />
 		                    </div>
-		                    <div class="enhance-group">
-		                        <label for="shipping_postcode" class="enhance-text-label">Zip Code<span class="enhance-required">*</span></label>
+		                    <div class="bc-group">
+		                        <label for="shipping_postcode" class="bc-text-label">Zip Code<span class="bc-required">*</span></label>
 		                        <input type="text" class="form-control" name="shipping_postcode" required="required" id="shipping_postcode" />
 		                    </div>
 		                
 		                </div>
 		            </div>
 
-		            <div class="enhance-submit-button clearfix">
-		                <div class="enhance-group">
+		            <div class="bc-submit-button clearfix">
+		                <div class="bc-group">
 		                	<button type="submit" class="btn btn-default" name="button-tUcWmC" data-ref-label="Register" id="button-tUcWmC">Register</button></div>
 		            </div>
 
-		            <div class="enhance_message"></div>
+		            <div class="bc_message"></div>
 
-		            <?php wp_nonce_field('enhance_submission_nonce' ); ?>
+		            <?php wp_nonce_field('bc_submission_nonce' ); ?>
 		            <input type="hidden" name="_wp_http_referer" value="<?php echo wp_get_referer(); ?>" />
-		            <input type="hidden" name="action" value="enhance_submit_form" />
-		            <input type="hidden" name="redirect_to" id="enhance_redirect_to" value="<?php echo get_permalink(); ?>" />
+		            <input type="hidden" name="action" value="bc_submit_form" />
+		            <input type="hidden" name="redirect_to" id="bc_redirect_to" value="<?php echo get_permalink(); ?>" />
 
-		            <input type="hidden" name="enhance_user" value="169" />
+		            <input type="hidden" name="bc_user" value="169" />
 		        </form>
 		    </div>
 		</div>
@@ -168,9 +168,9 @@ function create_enhancedcn_registration_form(){
 		<script type="text/javascript">
 		    jQuery(document).ready(function($){
 
-		        $(".enhance-form").on('submit', function() {
+		        $(".bc-form").on('submit', function() {
 
-		        	$('.enhance_message').html('Please wait...');
+		        	$('.bc_message').html('Please wait...');
 
 		            //get foem data
 		            var input_data = $(this).serialize();
@@ -184,7 +184,7 @@ function create_enhancedcn_registration_form(){
 		                data: input_data,
 		                success: function(msg) {
 		                	
-		                	$('.enhance_message').html(msg);
+		                	$('.bc_message').html(msg);
 
 		                }
 		            });
@@ -197,27 +197,27 @@ function create_enhancedcn_registration_form(){
 
 		<style>
 
-			.enhance-content-above {
+			.bc-content-above {
 			  font-size: 20px;
 			  font-weight: 700;
 			  margin-bottom: 20px;
 			}
-			.enhance-group {
+			.bc-group {
 			  margin-bottom: 15px;
 			}
-			.enhance-group label {
+			.bc-group label {
 			  display: block;
 			  width: 100%;
 			  padding-bottom: 5px;
 			}
-			.enhance-group input {
+			.bc-group input {
 			  width: 100%;
 			  border: 1px solid #ccc;
 			  padding: 6px 10px;
 			  height: 38px;
 			  border-radius: 4px;
 			}
-			.enhance-submit-button button {
+			.bc-submit-button button {
 			  background: #99c957;
 			  border: none;
 			  color: #fff;
@@ -227,14 +227,14 @@ function create_enhancedcn_registration_form(){
 			  font-weight: 700;
 			  cursor: pointer;
 			}
-			.enhance-submit-button button:hover {
+			.bc-submit-button button:hover {
 			  background: #00177f;
 			}
-			.enhance-required {
+			.bc-required {
 			    color: red;
 			    padding-left: 3px;
 			}
-			.enhance_message {
+			.bc_message {
 			    font-size: 20px;
 			    font-weight: 700;
 			    padding: 10px 0px;
@@ -245,7 +245,7 @@ function create_enhancedcn_registration_form(){
 	<?php return ob_get_clean();
 
 }
-add_shortcode('enhancedcn-registration', 'create_enhancedcn_registration_form');
+add_shortcode('bcdcn-registration', 'create_bcdcn_registration_form');
 
 
 
@@ -253,10 +253,10 @@ add_shortcode('enhancedcn-registration', 'create_enhancedcn_registration_form');
  * New User registration
  *
  */
-function enhance_submit_form_action_callback() {
+function bc_submit_form_action_callback() {
  
   // Verify nonce
-	check_ajax_referer( 'enhance_submission_nonce', 'security' );
+	check_ajax_referer( 'bc_submission_nonce', 'security' );
 
   // Post values
     $username = sanitize_user($_POST['user_login']);
@@ -357,5 +357,5 @@ function enhance_submit_form_action_callback() {
  
 }
  
-add_action('wp_ajax_enhance_submit_form', 'enhance_submit_form_action_callback');
-add_action('wp_ajax_nopriv_enhance_submit_form', 'enhance_submit_form_action_callback');
+add_action('wp_ajax_bc_submit_form', 'bc_submit_form_action_callback');
+add_action('wp_ajax_nopriv_bc_submit_form', 'bc_submit_form_action_callback');
