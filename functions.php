@@ -1,5 +1,5 @@
 <?php 
-function create_bcdcn_registration_form(){
+function create_bc_registration_form(){
 
 	ob_start(); ?>
 
@@ -159,7 +159,6 @@ function create_bcdcn_registration_form(){
 		            <input type="hidden" name="_wp_http_referer" value="<?php echo wp_get_referer(); ?>" />
 		            <input type="hidden" name="action" value="bc_submit_form" />
 		            <input type="hidden" name="redirect_to" id="bc_redirect_to" value="<?php echo get_permalink(); ?>" />
-
 		        </form>
 		    </div>
 		</div>
@@ -244,7 +243,7 @@ function create_bcdcn_registration_form(){
 	<?php return ob_get_clean();
 
 }
-add_shortcode('bcdcn-registration', 'create_bcdcn_registration_form');
+add_shortcode('bc-registration', 'create_bc_registration_form');
 
 
 
