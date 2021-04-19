@@ -160,7 +160,6 @@ function create_bcdcn_registration_form(){
 		            <input type="hidden" name="action" value="bc_submit_form" />
 		            <input type="hidden" name="redirect_to" id="bc_redirect_to" value="<?php echo get_permalink(); ?>" />
 
-		            <input type="hidden" name="bc_user" value="169" />
 		        </form>
 		    </div>
 		</div>
